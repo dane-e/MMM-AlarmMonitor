@@ -142,7 +142,7 @@ function calcRoute(end) {
     var icons = {
     	start: new google.maps.MarkerImage(
                                        // URL
-                                       'Home.png',
+                                       '/modules/MMM-AlarmMonitor/Home.png',
                                        // (width,height)
                                        new google.maps.Size( 40, 40 ),
                                        // The origin point (x,y)
@@ -152,7 +152,7 @@ function calcRoute(end) {
                                        ),
     	end: new google.maps.MarkerImage(
                                      // URL
-                                     'eo1.png',
+                                     '/modules/MMM-AlarmMonitor/eo1.png',
                                      // (width,height)
                                      new google.maps.Size( 33, 50 ),
                                      // The origin point (x,y)
@@ -189,7 +189,7 @@ function calcRouteGPS(end) {
     var icons = {
     start: new google.maps.MarkerImage(
                                        // URL
-                                       'Home.png',
+                                       '/modules/MMM-AlarmMonitor/Home.png',
                                        // (width,height)
                                        new google.maps.Size( 40, 40 ),
                                        // The origin point (x,y)
@@ -199,7 +199,7 @@ function calcRouteGPS(end) {
                                        ),
     end: new google.maps.MarkerImage(
                                      // URL
-                                     'eo1.png',
+                                     '/modules/MMM-AlarmMonitor/eo1.png',
                                      // (width,height)
                                      new google.maps.Size( 33, 50 ),
                                      // The origin point (x,y)
