@@ -345,7 +345,7 @@ Module.register('MMM-AlarmMonitor',{
 			//Set time of row
 			var time =  document.createElement("td");
 			time.innerHTML = this.config.format ? moment(this.messages[i].timestamp).format(this.config.format) : moment(this.messages[i].timestamp).fromNow();
-			time.classList.add("time", "light", "xsmall");
+			time.classList.add("time", "light", "xsmall", "align-right");
 			callWrapper.appendChild(time);
 
 			//Add to logs
