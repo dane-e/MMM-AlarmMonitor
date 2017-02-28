@@ -6,6 +6,7 @@ Notification API Module for MagicMirror<sup>2</sup>
 Eigenes Modul zur Anzeige von Alarmierungen als Fullscreen-HTML-Seite und dazu in Liste eintragen.
 Zusammengebaut aus den Modulen: alert und MMM-syslog.
 
+![](https://github.com/dane-e/MMM-AlarmMonitor/blob/master/example.png)
 
 ## Dependencies
   * An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
